@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aniruddha Pranav – Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f4f8fb;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.1em;
+      color: #cbd5e1;
+    }
+
+    .resume-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+
+    .resume-button:hover {
+      background: #1d4ed8;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 30px 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .section-title {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+      color: #1f2937;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+
+    .skills-bar {
+      margin: 10px 0;
+    }
+
+    .bar {
+      background: #e2e8f0;
+      border-radius: 25px;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      background: #22c55e;
+      padding: 5px;
+      width: 0;
+      animation: fillBar 2s forwards;
+      color: white;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @keyframes fillBar {
+      to { width: var(--width); }
+    }
+
+    .project-card {
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+      background: #f9fafb;
+    }
+
+    .project-card h3 {
+      margin: 0;
+      color: #2563eb;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: #1f2937;
+      text-decoration: none;
+      font-size: 1.5rem;
+    }
+
+    footer {
+      background: #1f2937;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    #topBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 10px 14px;
+      font-size: 16px;
+      background: #2563eb;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="IMG-20240926-WA0097.jpg" alt="Aniruddha Pranav">
+    <h1>Aniruddha Pranav M</h1>
+    <p>Pre-Final Year Student – B.E. Electronics & Instrumentation Engineering</p>
+    <p>Kongu Engineering College</p>
+    <p>📧 aniruddhapranavm@gmail.com | 📞 +91 99943 81659</p>
+    <a href="DOC-20250425-WA0001_" class="resume-button" download>📄 Download Resume</a>
+  </header>
+
+  <section>
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-bar">
+      <p>PLC Programming</p>
+      <div class="bar"><div class="bar-fill" style="--width: 80%;">80%</div></div>
+    </div>
+    <div class="skills-bar">
+      <p>VLSI Design</p>
+      <div class="bar"><div class="bar-fill" style="--width: 70%;">70%</div></div>
+    </div>
+    <div class="skills-bar">
+      <p>Python</p>
+      <div class="bar"><div class="bar-fill" style="--width: 75%;">75%</div></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Projects</h2>
+    <div class="project-card">
+      <h3>Missing Pulse Detector</h3>
+      <p>Designed using IC 741 to detect missing pulses in 16-bit signals (Mini Project).</p>
+    </div>
+    <div class="project-card">
+      <h3>LoRa Wireless Networking</h3>
+      <p>Presented paper at KPR College and VYNFEST on LoRa-based communication systems.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Career Objective</h2>
+    <p>To seek a challenging position of strategic importance in the corporate environment by contributing to the organization and sharpening my skills.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Educational Qualifications</h2>
+    <ul>
+      <li>B.E. Electronics and Instrumentation Engineering, Kongu Engineering College (CGPA: 8.43)</li>
+      <li>HSC – Green Garden MHSS, Perundurai – 86.5%</li>
+      <li>SSLC – Green Garden MHSS, Perundurai</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Other Activities</h2>
+    <ul>
+      <li>Android Development Workshop – Mobile App Dev Club</li>
+      <li>Design It Right – First Prize at Synergize’25, KEC</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Inplant Training</h2>
+    <ul>
+      <li>Coral Manufacturing Works Ltd, Elumathur – 7 Days</li>
+      <li>Sakthi Sugars Ltd, Erode – 7 Days</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Personal Profile</h2>
+    <ul>
+      <li><strong>DOB:</strong> 23-12-2005</li>
+      <li><strong>Languages:</strong> Tamil, English</li>
+      <li><strong>Hobbies:</strong> Gardening, Music</li>
+      <li><strong>Address:</strong> 7, Nehru Street, Manjakattuvalasu, Modakkurichi, Erode</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="section-title">Reference</h2>
+    <p>
+      Dr. S.J. Suji Prasad<br>
+      Professor & Head, Dept. of EIE, KEC<br>
+      📧 suji@kongu.ac.in | 📞 94865 61199
+    </p>
+  </section>
+
+  <section class="social-icons" style="text-align: center;">
+    <h2 class="section-title">Connect with Me</h2>
+    <a href="https://www.linkedin.com/in/aniruddha-pranav-m-29225a2ab/?trk=public-profile-join-page" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:aniruddhapranavm@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://github.com/pranav2005-m"><i class="fab fa-github"></i></a>
+  </section>
+
+  <footer>
+    © 2025 Aniruddha Pranav – Kongu Engineering College
+  </footer>
+
+  <button id="topBtn" onclick="window.scrollTo({top:0, behavior:'smooth'})">⬆️</button>
+
+  <script>
+    window.onscroll = () => {
+      document.getElementById("topBtn").style.display =
+        window.scrollY > 300 ? "block" : "none";
+    };
+  </script>
+
+</body>
+</html>
